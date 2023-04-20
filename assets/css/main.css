@@ -1530,6 +1530,53 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+/* Portfolio */
+
+.portfolio-item {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	max-width: 400px;
+	max-height: 300px;
+  }
+
+  
+  .portfolio-item .caption {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	position: absolute; 
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+  }
+  
+  .portfolio-item .caption .caption-content {
+	color: #fff;
+	margin: auto 2rem 2rem;
+	text-shadow: 0px 0px 20px #000000;
+  }
+  
+  .portfolio-item .caption .caption-content h2 {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+	font-weight: 900;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	*color: rgba(255, 255, 255, 0.7);
+	color: white;
+  }
+  
+  .portfolio-item .caption .caption-content h4 {
+	color: white;
+  }
+  .portfolio-item:hover .caption .caption-content h4 {
+	color: white;
+  }
+    
 /* Image */
 
 	.image {

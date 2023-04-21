@@ -1629,12 +1629,37 @@ input, select, textarea {
 
 /* List */
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+  }
+  
+  /* li a:hover {
+	background-color:;
+  } */
+/* 
 	ul {
 		list-style: disc;
 		padding-left: 1em;
 	}
 
 		ul li {
+			margin-top: 10rem;
 			padding-left: 0.5em;
 		}
 
@@ -1645,7 +1670,7 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		}
+		} */
 
 /* Icons */
 

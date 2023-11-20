@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 .container {
@@ -19,10 +21,12 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 header p {
     margin: 0.5em 0;
+    font-size: 1.2em;
 }
 
 section {
@@ -33,6 +37,7 @@ h2 {
     color: #1a1a1a;
     border-bottom: 2px solid #1a1a1a;
     padding-bottom: 0.5em;
+    font-size: 1.8em;
 }
 
 ul {
@@ -42,10 +47,12 @@ ul {
 
 li {
     margin-bottom: 0.5em;
+    font-size: 1.2em;
 }
 
 .project h3 {
     color: #1a1a1a;
+    font-size: 1.5em;
 }
 
 footer {
@@ -53,4 +60,27 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    li {
+        font-size: 1em;
+    }
+
+    .project h3 {
+        font-size: 1.2em;
+    }
 }

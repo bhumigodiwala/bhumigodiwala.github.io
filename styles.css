@@ -12,16 +12,40 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    background-color: #1a1a1a;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 header {
     background-color: #1a1a1a;
     color: #fff;
     text-align: center;
-    padding: 2em 0;
+    padding: 4em 0;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 header p {
@@ -30,14 +54,14 @@ header p {
 }
 
 section {
-    padding: 2em 0;
+    padding: 4em 0;
 }
 
 h2 {
     color: #1a1a1a;
     border-bottom: 2px solid #1a1a1a;
     padding-bottom: 0.5em;
-    font-size: 1.8em;
+    font-size: 2.5em;
 }
 
 ul {
@@ -59,13 +83,13 @@ footer {
     background-color: #1a1a1a;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 /* Responsive Design */
 @media only screen and (max-width: 768px) {
     header h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     header p {

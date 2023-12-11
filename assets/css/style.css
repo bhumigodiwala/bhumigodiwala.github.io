@@ -501,6 +501,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin: 18px 0 20px;
 }
 .main-timeline .description {
+    text-align: justify;
     font-size: 14px;
     color: #999fb3;
 }

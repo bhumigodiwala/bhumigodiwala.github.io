@@ -537,22 +537,30 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-profile {
     position: relative;
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: 1px solid #b2c1ce;
     overflow:hidden;
-    -webkit-transition:background 0.5s linear; 
+    /* -webkit-transition:background 0.5s linear; 
     -moz-transition:background 0.5s linear; 
     -ms-transition:background 0.5s linear; 
     -o-transition:background 0.5s linear; 
-    transition:background 0.5s linear;
+    transition:background 0.5s linear; */
 }
 .profile-icon-name {
+    align-items: center;
     text-transform: capitalize;
     color: #636a82;
     font-size: 16px;
+}
+.profile-icon-name h3{
+    text-align: justify;
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
 }
 .single-profile.profile-no-border{border-right:transparent;}
 .profile-border {
@@ -579,11 +587,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -ms-transform:scale(0);
     -o-transform:scale(0);
     transform:scale(0);
-    -webkit-transition: .5s;
+    /* -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
-    transition: .5s;
+    transition: .5s; */
 }
 .single-profile:hover .single-profile-overlay{
     -webkit-transform:scale(1);

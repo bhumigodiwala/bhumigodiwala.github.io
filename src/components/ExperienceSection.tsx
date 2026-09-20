@@ -19,7 +19,7 @@ const EXPERIENCES: ExperienceItem[] = [
     role: 'Graduate Research Data Scientist',
     organization: 'ASU Decision Theater Network',
     websiteUrl: 'https://dt.asu.edu/',
-    logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dt.asu.edu&size=128',
+    logoUrl: './asu_dt.png',
     description:
       'Architect end-to-end deep learning deployment and inference pipelines across several research domains, including a Valley Fever disease detection model taken from prototype to production model serving. Building an NLP skill-extraction system that maps university course offerings onto job-market requirements. Leading clustering analysis of Commonwealth Fund health indicators for Maricopa County, and co-authoring a paper on LLM and RAG methods combined with topic modelling.',
     isCurrent: true,
@@ -30,7 +30,7 @@ const EXPERIENCES: ExperienceItem[] = [
     role: 'Senior Data Scientist',
     organization: 'Infosys',
     websiteUrl: 'https://www.infosys.com/',
-    logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.infosys.com&size=128',
+    logoUrl: './infosys.png',
     description:
       'Engineered an anomaly-detection system that raised utility theft detection accuracy 25%, protecting revenue for a regulated energy utility serving more than a million customers. Redesigned Budget Billing analytics around behavioural drivers, lifting enrolment 15% and retention 10%, and shipped the findings as policy alongside engineering and product.',
   },
@@ -40,7 +40,7 @@ const EXPERIENCES: ExperienceItem[] = [
     role: 'Senior AI/ML Engineer',
     organization: 'MemoryCare AI (now Scienza Health)',
     websiteUrl: 'https://scienzahealth.com/',
-    logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://scienzahealth.com&size=128',
+    logoUrl: './mcai.png',
     description:
       "Built the LLM and RAG pipelines behind HIPAA-compliant patient assistance, and an avatar-based speech and behaviour tracking system reaching 90% detection accuracy for early Alzheimer's and TBI intervention. Designed an Azure-based cognitive assessment platform that cut assessment time 35% while scaling securely across clinics.",
   },
@@ -50,7 +50,7 @@ const EXPERIENCES: ExperienceItem[] = [
     role: 'Machine Learning Engineer',
     organization: 'USC Information Sciences Institute',
     websiteUrl: 'https://www.isi.edu/',
-    logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.isi.edu&size=128',
+    logoUrl: './usc_isi.png',
     description:
       'Developed Adaptive Mixture Quantization for cloud and edge deployment: accuracy up 5%, model size down 15%, communication efficiency up 30%.',
   },
@@ -60,7 +60,7 @@ const EXPERIENCES: ExperienceItem[] = [
     role: 'Machine Learning Intern',
     organization: 'TetraMem',
     websiteUrl: 'https://tetramem.com/',
-    logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tetramem.com&size=128',
+    logoUrl: './tetramem.png',
     description:
       'Optimised human pose estimation and visual wake-word models for edge inference chips, holding 93% accuracy with reduced memory and latency. Applied quantization-aware training and post-training quantization to shrink parameters without losing accuracy.',
   },
@@ -70,7 +70,7 @@ const EXPERIENCES: ExperienceItem[] = [
     role: 'Software Engineer',
     organization: 'Tata Consultancy Services',
     websiteUrl: 'https://www.tcs.com/',
-    logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.tcs.com&size=128',
+    logoUrl: './tcs.png',
     description:
       'Shipped full-stack Java, HTML, CSS and JavaScript modules for university portals serving over ten thousand students, and automated metadata mapping and reporting to cut manual processing time 30%.',
   },

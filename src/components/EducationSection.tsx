@@ -40,7 +40,7 @@ const DEGREES: DegreeItem[] = [
     level: 'BE in Electronics and Telecommunications Engineering',
     institution: 'D.J. Sanghvi College of Engineering',
     affiliation: 'University of Mumbai',
-    websiteUrl: './mumbaiuniv.png',
+    websiteUrl: './mumbaiuniv.jpeg',
     affiliationUrl: 'https://mu.ac.in/',
     logoUrl: 'https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mu.ac.in&size=128',
     symbolNote: 'Official symbol is of University of Mumbai',

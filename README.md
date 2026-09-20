@@ -21,7 +21,7 @@ My primary research and engineering interests span **Generative AI (LLMs & RAG)*
 
 ### 🚀 Featured Projects
 
-#### [LLM-Powered Email Generation System](#) *(Add Link)*
+#### [LLM-Powered Email Generation System](#) *(https://github.com/Email-Generation/email_generation)*
 *An end-to-end scalable, serverless application for real-time AI email generation.*
 *   **Architecture:** FastAPI + React frontend deployed on AWS (Lambda, EC2, API Gateway).
 *   **Impact:** Built a highly scalable, real-time generation pipeline utilizing containerization via Docker and cloud-native serverless functions.

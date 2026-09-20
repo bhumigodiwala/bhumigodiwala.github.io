@@ -43,7 +43,6 @@ const DEGREES: DegreeItem[] = [
     websiteUrl: 'https://djsce.ac.in/',
     affiliationUrl: 'https://mu.ac.in/',
     logoUrl: './mumbaiuniv.jpeg',
-    symbolNote: 'Official symbol is of University of Mumbai',
     timeline: '2016 – 2020',
     gpa: 'CGPA 9.19 / 10',
     specialization: 'Embedded systems, signal processing, and statistical machine learning foundations.',

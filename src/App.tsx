@@ -11,14 +11,14 @@ import { ContactSection } from './components/ContactSection';
 import { CvModal } from './components/CvModal';
 
 export default function App() {
-  // Default to Light Mode per user request
+  // Default to Dark Mode
   const [isLight, setIsLight] = useState<boolean>(() => {
     try {
       const savedTheme = localStorage.getItem('portfolio-theme');
-      if (savedTheme === 'dark') return false;
-      return true; // Default is light mode
+      if (savedTheme === 'light') return true;
+      return false; // Default is Dark Mode
     } catch {
-      return true;
+      return false;
     }
   });
 

@@ -21,13 +21,13 @@ My primary research and engineering interests span **Generative AI (LLMs & RAG)*
 
 ### 🚀 Featured Projects
 
-#### [LLM-Powered Email Generation System](#) *(https://github.com/Email-Generation/email_generation)*
+#### LLM-Powered Email Generation System 
 *An end-to-end scalable, serverless application for real-time AI email generation.*
 *   **Architecture:** FastAPI + React frontend deployed on AWS (Lambda, EC2, API Gateway).
 *   **Impact:** Built a highly scalable, real-time generation pipeline utilizing containerization via Docker and cloud-native serverless functions.
 *   **Tech:** Python, FastAPI, React, Docker, AWS
 
-#### [ASL Gesture Prediction using ST-GAN for Shadow Removal](#) *(Add Link)*
+#### ASL Gesture Prediction using ST-GAN for Shadow Removal
 *A robust computer vision pipeline for improving American Sign Language classification.*
 *   **Approach:** Engineered a GAN-CNN fusion model to eliminate shadow noise from input data, vastly improving downstream classification.
 *   **Impact:** Achieved a **92.9% test accuracy**, utilizing full MLflow experiment tracking for reproducibility and hyperparameter tuning.

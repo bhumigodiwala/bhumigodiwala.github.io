@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f4f8fb;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --surface-soft: rgba(0, 0, 0, 0.025);
+  --border: rgba(15, 23, 42, 0.12);
+  --input: rgba(15, 23, 42, 0.16);
+  --brass: #b47818;
+  --brass-hover: #9c6712;
+  --brass-light: rgba(180, 120, 24, 0.12);
+  --teal: #238573;
+  --teal-light: rgba(35, 133, 115, 0.12);
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+}
+
+.dark {
+  --background: #0d131f;
+  --foreground: #f0f4f8;
+  --card: #121927;
+  --card-foreground: #f0f4f8;
+  --surface-soft: rgba(255, 255, 255, 0.035);
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.12);
+  --brass: #c59e5e;
+  --brass-hover: #b89152;
+  --brass-light: rgba(197, 158, 94, 0.15);
+  --teal: #4eb59f;
+  --teal-light: rgba(78, 181, 159, 0.15);
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0;
+  scroll-behavior: smooth;
+}
+
+.font-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.font-body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 158, 94, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 158, 94, 0.5);
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+.pulse-dot {
+  animation: pulse-soft 2.2s ease-in-out infinite;
+}
+
+/* Button & interactive styling matching the screenshot */
+.btn-brass {
+  background-color: var(--brass);
+  color: #0c121e;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-brass:hover {
+  background-color: var(--brass-hover);
+}
+
+.btn-outline-dark {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  transition: all 0.2s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.text-brass {
+  color: var(--brass);
+}
+
+.text-teal-accent {
+  color: var(--teal);
+}
+
+.border-subtle {
+  border-color: var(--border);
+}
+
+.bg-surface-card {
+  background-color: var(--surface-soft);
+}

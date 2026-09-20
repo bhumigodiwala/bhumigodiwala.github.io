@@ -19,7 +19,7 @@ export const Hero: React.FC<Props> = ({ photoUrl, onOpenCvModal }) => {
             {/* Framed Profile Photo - Static, with warm brass outline and shadow */}
             <div className="relative h-24 w-24 sm:h-28 sm:w-28 shrink-0 overflow-hidden rounded-2xl border-2 border-[var(--brass)] bg-white dark:bg-[#121927] shadow-xl ring-4 ring-[var(--brass)]/20 transition-transform">
               <img
-                src="/assets/images/profile_photo"
+                src="/assets/images/profile_photo.jpg"
                 alt="Bhumi Godiwala"
                 referrerPolicy="no-referrer"
                 className="h-full w-full object-cover object-[center_32%]"

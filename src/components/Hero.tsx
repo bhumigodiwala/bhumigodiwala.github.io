@@ -22,7 +22,7 @@ export const Hero: React.FC<Props> = ({ photoUrl, onOpenCvModal }) => {
                 src={photoUrl}
                 alt="Bhumi Godiwala"
                 referrerPolicy="no-referrer"
-                className="h-full w-full object-cover object-[center_32%]"
+                className="h-full w-full object-cover object-[center_35%]"
               />
             </div>
 
